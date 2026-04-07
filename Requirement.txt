@@ -1,0 +1,15 @@
+# Core Logic & Math
+numpy>=1.24.0
+pydantic>=2.0.0
+
+# API & LLM Communication
+openai>=1.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Server (Needed if hosting the env as an API)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Utilities
+pyyaml>=6.0.1
