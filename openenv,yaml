@@ -1,0 +1,13 @@
+version: "1.0"
+name: "RealWorldWarehouse-v1"
+entry_point: "warehouse_env:SmartWarehouseEnv"
+tasks:
+  - id: "inventory_optimization_basic"
+    difficulty: "easy"
+    description: "Maintain stock levels for 30 days."
+  - id: "peak_demand_challenge"
+    difficulty: "medium"
+    description: "Handle high-variance holiday demand."
+  - id: "supply_chain_resilience"
+    difficulty: "hard"
+    description: "Manage stock with variable delivery lead times."
